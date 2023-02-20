@@ -10,11 +10,19 @@
     max-width: 800px;
 }
 .carousel-indicators{
-    position: relative;   
+    position: relative;  
+    background-color: #f10606; 
+    /* width: 30px; */
 }
-.carousel-indicators [data-bs-target]{
-    color: red;
+
+.carousel-indicators button{
+    
+    background-color:#080000;
+    width: 30px;
+    height: 30px;
+    
 }
+
 
 .star i{
     color: red;
